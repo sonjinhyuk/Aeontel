@@ -1,1 +1,24 @@
 @CHARSET "EUC-KR";
+#warp{
+	width :  1281px;
+	height : 1672px;
+	margin: auto;
+}
+
+#menu{
+	width: 1093px;
+	margin-left: 106px;
+	height: 85px;
+	margin-top: -7px;
+}
+
+.menuImg{
+	width : 246px;
+	height: 85px;
+}
+
+header{
+	width: 1280px;
+	height: 220px;
+	background-image: url("export/images/backgroundImg.JPG");
+}

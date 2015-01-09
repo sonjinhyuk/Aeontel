@@ -5,42 +5,21 @@
 <head>
 <title>main_rainbow_최종수정1213</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- <script type="text/javascript" src = "/vending/js/jquery-1.10.2.js"></script> -->
+<link rel="stylesheet" type="text/css" href="export/css/mainLayout.css">
 </head>
 <body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-<table id="__01" width="1281" height="1672" border="0" cellpadding="0" cellspacing="0">
-	<tr>
-		<td colspan="16">
-			<img src="images/main_rainbow_01.jpg" width="1280" height="134" alt=""></td>
-		<td>
-			<img src="images/spacer.gif" width="1" height="134" alt=""></td>
-	</tr>
-	<tr>
-		<td colspan="2" rowspan="2">
-			<img src="images/main_rainbow_02.jpg" width="106" height="6" alt=""></td>
-		<td colspan="11">
-			<img src="images/main_rainbow_03.jpg" width="992" height="1" alt=""></td>
-		<td colspan="3" rowspan="2">
-			<img src="images/main_rainbow_04.jpg" width="182" height="6" alt=""></td>
-		<td>
-			<img src="images/spacer.gif" width="1" height="1" alt=""></td>
-	</tr>
-	<tr>
-		<td rowspan="4">
-			<img src="images/main_rainbow_05.jpg" width="1" height="85" alt=""></td>
-		<td colspan="3" rowspan="4">
-			<img src="images/main_rainbow_06.jpg" width="251" height="85" alt=""></td>
-		<td colspan="2" rowspan="3">
-			<img src="images/main_rainbow_07.jpg" width="246" height="84" alt=""></td>
-		<td rowspan="5">
-			<img src="images/main_rainbow_08.jpg" width="248" height="86" alt=""></td>
-		<td colspan="3" rowspan="3">
-			<img src="images/main_rainbow_09.jpg" width="245" height="84" alt=""></td>
-		<td rowspan="4">
-			<img src="images/main_rainbow_10.jpg" width="1" height="85" alt=""></td>
-		<td>
+<div id = "warp">
+	<header>
+		<img src="images/main_rainbow_01.jpg" width="1280" height="134" alt="">
+		<div id = "menu">
+			<img src="images/main_rainbow_06.jpg" class = "menuImg">
+			<img src="images/main_rainbow_07.jpg" class = "menuImg">
+			<img src="images/main_rainbow_08.jpg" class = "menuImg">
+			<img src="images/main_rainbow_09.jpg" class = "menuImg">
+		</div>
+	</header>
 			<img src="images/spacer.gif" width="1" height="5" alt=""></td>
-	</tr>
-	<tr>
 		<td colspan="2" rowspan="12">
 			<img src="images/main_rainbow_11.jpg" width="106" height="1021" alt=""></td>
 		<td colspan="2" rowspan="5">
@@ -199,6 +178,6 @@
 			<img src="images/spacer.gif" width="20" height="1" alt=""></td>
 		<td></td>
 	</tr>
-</table>
+</div>
 </body>
 </html>
