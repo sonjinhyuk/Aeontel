@@ -5,20 +5,238 @@
 	margin: auto;
 }
 
-#menu{
-	width: 1093px;
-	margin-left: 106px;
-	height: 85px;
-	margin-top: -7px;
-}
 
-.menuImg{
-	width : 246px;
-	height: 85px;
+body{
+	margin : 0px;
 }
-
 header{
 	width: 1280px;
-	height: 220px;
-	background-image: url("export/images/backgroundImg.JPG");
+	height: 180px;
+	margin: auto;
+	background-image :url("../../images/backgroundImg.JPG");
+}
+nav{
+	width: 1280px;
+	margin: auto;
+	height: 61px;
+}
+
+section{
+	width: 1281px;
+	height: 1000px;	
+	margin: auto;
+}
+.message{
+	width: 1000px;
+	height: 1000px;
+	float: left;
+}
+.message img{
+	width : 737px;
+}
+.sideMenu{
+	width: 230px;
+	float: right;
+	cursor: pointer;
+}
+
+.mymenu{
+	position: fixed;
+	right: 120px;
+}
+.mymenuTop{
+	background-image: url("../../images/sidemenu/main_rainbow_sidemenu.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;	
+	width: 96px;;
+	height: 404px;
+}
+.mymenuTop ul{
+    list-style-type: none;
+    padding: 22px 0 0 12px;
+    margin: 0px;
+}
+
+.mymenuTop ul li{
+    background-repeat: no-repeat;
+    background-position: 0px center; 
+    height: 98px;
+    left: 5px;
+    cursor: pointer;
+}
+.mymenuTop ul li:FIRST-CHILD{
+    background-image: url(../../images/sidemenu/main_rainbow_sidemenu1.jpg);
+}
+.mymenuTop ul li:nth-child(2){
+    background-image: url(../../images/sidemenu/main_rainbow_sidemenu2.jpg);
+}
+.mymenuTop ul li:nth-child(3){
+    background-image: url(../../images/sidemenu/main_rainbow_sidemenu3.jpg);
+}
+.mymenuTop ul li:nth-child(4){
+    background-image: url(../../images/sidemenu/main_rainbow_sidemenu4.jpg);
+}
+
+.topButton{
+	background-image: url("../../images/sidemenu/main_rainbow_sidemenu_top.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+    width: 96px;;
+    height: 1.59cm;	
+    cursor: pointer;
+}
+
+
+.searchArea{
+	width: 538px;
+	height: 85px;
+	float: left;
+	padding-top: 95px;
+}
+
+.logo{
+	width: 442px;
+	float: left;
+	cursor: pointer;
+}
+
+
+#logoSpace{
+	width: 442px;
+	height: 32px;
+}
+
+
+.subMenu{
+	float: left;
+	width: 300px;
+	height: 180px;
+	padding-top: 5px;
+}
+
+.inSubmenu{
+	width: 100%;
+	padding: 25px 0 0 0;
+	cursor: pointer;
+}
+
+.submenuZindex{
+	position: relative;
+	top: -80px;
+	float: left;
+}
+
+#inSubMainMenu{
+	position: relative;
+	top: -60px;
+	float: left;
+	width: 117px;
+	height: 71px;
+}
+
+#inSubMenu1 #inSubMenu2 #inSubMenu3 #inSubMenu4{
+	width: 126px;
+}
+
+.sidebarMenu{
+	width: 1281px;
+	height: 1.6cm;
+	float: left;
+	background-image: url("../../images/menu/main_rainbow_sub_menu_sideBar.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	position: relative;
+	z-index: 0;
+	top: -23px;
+}
+
+.menu{
+	width : 1081px;
+	position: relative;
+	margin: auto;
+	z-index: 1;
+	top: -15px;
+}
+.inMenu{
+	width: 270px;
+	float: left;
+	cursor: pointer;
+}
+.inMenu img{
+	width: 100%;
+	height: 100%;
+}
+.line{
+	width: 1281px;
+	height: 0.32cm;
+	background-image: url("../../images/footer/main_rainbow_sub_footer_line.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.footer{
+	width:1281px;
+	height: 223px;
+	margin: auto;
+}
+
+.footmenu{
+	float: left;
+	cursor: pointer;
+}
+
+.middleLine{
+	width: 693px;
+	height: 2px;
+	background-image: url("../../images/footer/main_rainbow_sub_footer_middleLine.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    float: left;
+}
+
+#middle2{
+	margin-left: 60px;
+	width: 500px;
+}
+
+.moja2c{
+	width: 18.13cm;
+	height: 1.66cm;
+	background-image: url("../../images/footer/main_rainbow_sub1-1_footerMenu_moja2c.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.sideMenu ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.sideMenu ul li{
+    background-repeat: no-repeat;
+    background-position: 0px center; 
+    height: 50px;
+}
+.helloMessage ul li:FIRST-CHILD{
+    background-image: url(../../images/hellomessage/main_rainbow_helloMessage_side1.jpg);
+}
+.helloMessage ul li:nth-child(2){
+    background-image: url(../../images/hellomessage/main_rainbow_helloMessage_side2.jpg);
+}
+
+.useFor ul li:FIRST-CHILD {
+    background-image: url(../../images/useFor/main_rainbow_way1.jpg);
+}
+
+.useFor ul li:nth-child(2){
+    background-image: url(../../images/useFor/main_rainbow_way2.jpg);
+}
+.useFor ul li:nth-child(3){
+    background-image: url(../../images/useFor/main_rainbow_way3.jpg);
+}
+.useFor ul li:nth-child(4){
+    background-image: url(../../images/useFor/main_rainbow_way4.jpg);
 }

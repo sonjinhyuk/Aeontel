@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="Aenotel">
+    <wb-module deploy-name="Aeontel">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="Aenotel"/>
-        <property name="java-output-path" value="/Aenotel/build/classes"/>
+        <property name="java-output-path" value="/Aeontel/build/classes"/>
+        <property name="context-root" value="Aeontel"/>
     </wb-module>
 </project-modules>
