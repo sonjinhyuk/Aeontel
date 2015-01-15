@@ -1,4 +1,16 @@
 @CHARSET "EUC-KR";
+@font-face {
+    font-family:'NanumGothic';
+    src: url('/Aeontel/font/NanumGothic.eot');
+    src: url('/Aeontel/font/NanumGothic.eot?#iefix') format('embedded-opentype'),
+         url('/Aeontel/font/NanumGothic.woff') format('woff'),
+         url('/Aeontel/font/NanumGothic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 #warp{
 	width :  1281px;
 	height : 1672px;
@@ -8,12 +20,13 @@
 
 body{
 	margin : 0px;
+	font-family: 'NanumGothic',"³ª´®¹Ù¸¥°íµñ";	
 }
 header{
 	width: 1280px;
 	height: 180px;
 	margin: auto;
-	background-image :url("../../images/backgroundImg.JPG");
+	background-image :url("/Aeontel/images/backgroundImg.JPG");
 }
 nav{
 	width: 1280px;
@@ -27,15 +40,17 @@ section{
 	margin: auto;
 }
 .message{
-	width: 1000px;
+	width: 900px;
 	height: 1000px;
 	float: left;
+	margin-left: 100px;
 }
 .message img{
 	width : 737px;
 }
 .sideMenu{
 	width: 230px;
+	height: 1000px;
 	float: right;
 	cursor: pointer;
 }
@@ -45,7 +60,7 @@ section{
 	right: 120px;
 }
 .mymenuTop{
-	background-image: url("../../images/sidemenu/main_rainbow_sidemenu.jpg");
+	background-image: url("/Aeontel/images/sidemenu/main_rainbow_sidemenu.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;	
 	width: 96px;;
@@ -65,20 +80,20 @@ section{
     cursor: pointer;
 }
 .mymenuTop ul li:FIRST-CHILD{
-    background-image: url(../../images/sidemenu/main_rainbow_sidemenu1.jpg);
+    background-image: url(/Aeontel/images/sidemenu/main_rainbow_sidemenu1.jpg);
 }
 .mymenuTop ul li:nth-child(2){
-    background-image: url(../../images/sidemenu/main_rainbow_sidemenu2.jpg);
+    background-image: url(/Aeontel/images/sidemenu/main_rainbow_sidemenu2.jpg);
 }
 .mymenuTop ul li:nth-child(3){
-    background-image: url(../../images/sidemenu/main_rainbow_sidemenu3.jpg);
+    background-image: url(/Aeontel/images/sidemenu/main_rainbow_sidemenu3.jpg);
 }
 .mymenuTop ul li:nth-child(4){
-    background-image: url(../../images/sidemenu/main_rainbow_sidemenu4.jpg);
+    background-image: url(/Aeontel/images/sidemenu/main_rainbow_sidemenu4.jpg);
 }
 
 .topButton{
-	background-image: url("../../images/sidemenu/main_rainbow_sidemenu_top.jpg");
+	background-image: url("/Aeontel/images/sidemenu/main_rainbow_sidemenu_top.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     float: left;
@@ -92,7 +107,7 @@ section{
 	width: 538px;
 	height: 85px;
 	float: left;
-	padding-top: 95px;
+	padding-top: 80px;
 }
 
 .logo{
@@ -111,7 +126,7 @@ section{
 .subMenu{
 	float: left;
 	width: 300px;
-	height: 180px;
+	height: 183px;
 	padding-top: 5px;
 }
 
@@ -143,7 +158,7 @@ section{
 	width: 1281px;
 	height: 1.6cm;
 	float: left;
-	background-image: url("../../images/menu/main_rainbow_sub_menu_sideBar.jpg");
+	background-image: url("/Aeontel/images/menu/main_rainbow_sub_menu_sideBar.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 	position: relative;
@@ -170,7 +185,7 @@ section{
 .line{
 	width: 1281px;
 	height: 0.32cm;
-	background-image: url("../../images/footer/main_rainbow_sub_footer_line.jpg");
+	background-image: url("/Aeontel/images/footer/main_rainbow_sub_footer_line.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: auto;
@@ -190,7 +205,7 @@ section{
 .middleLine{
 	width: 693px;
 	height: 2px;
-	background-image: url("../../images/footer/main_rainbow_sub_footer_middleLine.jpg");
+	background-image: url("/Aeontel/images/footer/main_rainbow_sub_footer_middleLine.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: auto;
@@ -205,7 +220,7 @@ section{
 .moja2c{
 	width: 18.13cm;
 	height: 1.66cm;
-	background-image: url("../../images/footer/main_rainbow_sub1-1_footerMenu_moja2c.jpg");
+	background-image: url("/Aeontel/images/footer/main_rainbow_sub1-1_footerMenu_moja2c.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -221,22 +236,95 @@ section{
     height: 50px;
 }
 .helloMessage ul li:FIRST-CHILD{
-    background-image: url(../../images/hellomessage/main_rainbow_helloMessage_side1.jpg);
+    background-image: url(/Aeontel/images/hellomessage/main_rainbow_helloMessage_side1.jpg);
 }
 .helloMessage ul li:nth-child(2){
-    background-image: url(../../images/hellomessage/main_rainbow_helloMessage_side2.jpg);
+    background-image: url(/Aeontel/images/hellomessage/main_rainbow_helloMessage_side2.jpg);
 }
 
 .useFor ul li:FIRST-CHILD {
-    background-image: url(../../images/useFor/main_rainbow_way1.jpg);
+    background-image: url(/Aeontel/images/useFor/main_rainbow_way1.jpg);
 }
 
 .useFor ul li:nth-child(2){
-    background-image: url(../../images/useFor/main_rainbow_way2.jpg);
+    background-image: url(/Aeontel/images/useFor/main_rainbow_way2.jpg);
 }
 .useFor ul li:nth-child(3){
-    background-image: url(../../images/useFor/main_rainbow_way3.jpg);
+    background-image: url(/Aeontel/images/useFor/main_rainbow_way3.jpg);
 }
 .useFor ul li:nth-child(4){
-    background-image: url(../../images/useFor/main_rainbow_way4.jpg);
+    background-image: url(/Aeontel/images/useFor/main_rainbow_way4.jpg);
+}
+
+.searchArea input{
+	border-color: rgb(85,85,85);
+	border-width: 5px;
+	border-style: solid;
+	height: 31px;
+}
+
+section .message{
+	width: 900px;
+	height: 1000px;
+	float: left;
+	margin-left: 100px;
+}
+.rightSide, .leftSide{
+	width: 200px;
+	height: 1000px;
+	float: left;
+	margin-top: 46px;
+}
+.rightSide{
+	width: 700px;
+}
+
+.leftSide div {
+	height: 71px;
+	width: 100%;	
+}
+
+.rightSide div {
+	height: 71px;
+	width: 100%;
+}
+
+.myButton {
+	-moz-box-shadow: 0px 5px 14px -7px #276873;
+	-webkit-box-shadow: 0px 5px 14px -7px #276873;
+	box-shadow: 0px 5px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color:#599bb3;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:20px;
+	font-weight:bold;
+	padding:11px 27px;
+	text-decoration:none;
+	text-shadow:0px -2px 0px #3d768a;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }

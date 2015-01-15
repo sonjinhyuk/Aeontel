@@ -1,0 +1,292 @@
+@CHARSET "EUC-KR";
+
+section{
+	min-height : 1500px;
+	height: auto;
+	margin: auto;
+	width: 1281px;
+}
+.title{
+	width: 744px;
+	height: 54px;
+	background-image: url("/Aeontel/images/purchase/main_rainbow_purchases_title.jpg");
+	vertical-align: middle;
+	display: table-cell;
+	text-indent: 2%;
+}
+
+.spacebar{
+	float: left;
+	width: 744px;
+	height: 32px;
+}
+
+.spacebar .bar{
+	width: 721px;
+	height: 32px;
+	margin-left: 11px;
+	background-image: url("/Aeontel/images/purchase/main_rainbow_purchase_bar.jpg");
+	font-size: 17px;
+	color: rgb(203,203,203);
+	vertical-align: middle;
+	display: table-cell;
+}
+.bar span{
+	text-align: center;
+	position: relative;
+	top: 5px;
+	left: 1px;
+}
+
+.bar span:nth-child(2){
+	left: 30px;
+}
+.bar span:nth-child(3){
+	left: 100px;
+}
+
+.picAndPriceInfo{
+	width: 744px;
+	height: auto;
+	float: left;
+	padding-top: 23px;
+}
+
+.mainPic{
+	width: 378px;
+	height: 233px;
+	background-image: url("/Aeontel/images/purchase/defaultImg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;	
+	margin: auto;
+}
+
+.priceInfo{
+	width: 378px;
+	height: 64px;
+	margin: auto;
+	padding: 30px 0 0 0;
+	text-align: center;
+	font-size: 14px;
+}
+
+.message img{
+	width: 13px;
+}
+
+#saveAndRainbowPoint{
+	width: 206px;
+	height: 20px;
+	margin: auto;
+	font-size: 13px;
+	padding-top: 7px;
+}
+
+#price{
+	color: rgb(237,49,133);
+	font-size : 29px;
+}
+
+#saving{
+	color: rgb(253,221,184);
+	font-size: 16px;
+}
+
+#donation{
+	color: rgb(227,241,207);
+	font-size: 16px;
+}
+
+.productInfo{
+	width: 744px;
+	height: auto;
+}
+
+.detailInfo{
+	width: 744px;
+	height: 39px;
+	float: left;
+	background-image: url("/Aeontel/images/purchase/main_rainbow_purchase_detailProdcut.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.detailInfoContent{
+	width: 744px;
+	float: left;
+	height: auto;
+}
+
+section .message{
+	width: 811px;
+	height: auto;
+}
+
+.sideMenu{
+	float: left;
+	cursor: default;
+}
+
+.option{
+	margin :15px;
+	background-image: url("/Aeontel/images/purchase/main_rainbow_purchase_option.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.optionPrice{
+	text-align: right;
+	color: rgb(184,219,136);
+	font-size: 23px;
+}
+.afterPurchase{
+	height: 330px;
+}
+.aPBack{
+	background-image: url("/Aeontel/images/purchase/main_rainbow_purchase_afterPurcher.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 42px;
+    margin: 15px 0 0 0;
+    font-size: 17px;
+    text-indent: 130px;
+    padding: 8px 0 0 0;
+}
+
+.paging{
+	text-align: center;
+}
+
+.like{
+	background-image: url("/Aeontel/images/purchase/main_rainbow_purchase_likeCount.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	width: 744px;
+	height: 37px;
+	color: rgb(242,242,242);
+    font-size: 17px;
+    text-indent: 65px;
+    padding: 12px 0 0 0;
+}
+.submitButtonSize{
+	width: 744px;
+	height: 185px;
+	margin-top: 10px;
+}
+
+#submitButtonBig, #likeButton{
+	width: 366px;
+	height: 64px;
+	background-image: url("/Aeontel/images/purchase/main_rainbow_purchase_submitButtonBig.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin: 0 0 0 5px;
+    float: left;
+}
+
+#likeButton{
+	background-image: url("/Aeontel/images/purchase/main_rainbow_purchase_likeButton.jpg");
+}
+
+.purchaserInfoAndEtc{
+	width: 300px;
+}
+
+.purchaserInfo{
+	width: 254px;
+	height: 210px;
+	background-image: url("/Aeontel/images/purchase/main_rainbow_purchaserInfoBackground.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 15px 0 0 0;
+}
+
+.infoChar, .sendComment{
+	width: 164px;
+	height: 52px;
+	background-image: url("/Aeontel/images/purchase/main_rainbow_purchases_purchaserInfoChar.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.sendComment{
+	width: 90px;
+	background-image: url("/Aeontel/images/purchase/main_rainbow_purchaserSend.jpg");
+	cursor: pointer;
+}
+
+.purchaserInfoDetail{
+	width: 254px;
+	height: 120px;
+	float: left;
+}
+.info{
+	width: 254px;
+	height: 30px;
+	float: left;
+}
+
+.counting{
+	width: 254px;
+	height: 24px;
+	background-image: url("/Aeontel/images/purchase/main_rainbow_purchasescounting.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 14px 0 0 0;
+}
+
+.counting span {
+	position: relative;
+	top: -4px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.counting span:FIRST-CHILD {
+	left:65px;
+}
+.counting span:nth-child(2){
+	left:125px;
+}
+.counting span:nth-child(3){
+	left:176px;
+}
+
+.smallButton{
+	width: 254px;
+	height: 80px;
+	margin: 30px 0 0 0;
+}
+
+.sButton{
+	width: 120px;
+	height: 30px;
+	background-image: url("/Aeontel/images/purchase/main_rainbow_purchase_contectButton.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+    margin: 0 2px 0 2px;
+}
+.sButton:nth-child(2){
+	background-image: url("/Aeontel/images/purchase/main_rainbow_purchase_cart.jpg");
+}
+
+.anotherPurchas{
+	width: 254px;
+	height: 300px;
+}
+
+.anBack{
+	width: 200px;
+	height: 40px;
+	background-image: url("/Aeontel/images/purchase/main_rainbow_purchases_anotherProduct.jpg");
+}
+.anBackBar{
+	width: 260px;
+	height: 20px;
+	background-image: url("/Aeontel/images/purchase/main_rainbow_purchase_barpr.jpg");
+}

@@ -1,0 +1,51 @@
+@CHARSET "EUC-KR";
+.registerwords{
+	width: 1000px;
+	height: 77px;
+	background-image: url("../../images/register/main_rainbow_listChar.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.listPrint{
+	width: 250px;
+	height: 52px;
+}
+
+.listPrint ul{
+	list-style:none;
+    margin:0;
+    padding:0;
+    width: 250px;
+    height: 50px;
+}
+
+.listPrint li{
+	margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border : 0;
+    float: left;
+    width: 60px;
+    height: 50px;
+}
+
+.listPrint ul li:FIRST-CHILD {
+    background-image: url(../../images/register/main_rainbow_list_recent.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.listPrint ul li:nth-child(2){
+    background-image: url(../../images/register/main_rainbow_list_recomend.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.listPrint ul li:nth-child(3){
+    background-image: url(../../images/register/main_rainbow_list_sales.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.listPrint ul li:nth-child(4){
+    background-image: url(../../images/register/main_rainbow_list_hit.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}

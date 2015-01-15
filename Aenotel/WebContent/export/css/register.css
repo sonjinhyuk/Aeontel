@@ -1,0 +1,87 @@
+@CHARSET "EUC-KR";
+
+section, .message{
+	height: 1800px;
+}
+
+.registerwords{
+	width: 900px;
+	height: 77px;
+	background-image: url("../../images/register/main_rainbow_register.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.leftSide{
+	width: 207px;
+	height: 1447px;
+	float: left;
+	margin : 121px 0 0 0;
+	text-align: center;
+	
+}
+
+.rightSide{
+	width: 693px;
+	height: 1447px;
+	float: right;
+	margin : 121px 0 0 0;
+}
+
+.leftSidemenu{
+	width: 100%;
+	height: 50px;
+	float: left;
+}
+
+.rightSidemenu{
+	width: 100%;
+	height: 50px;
+	float: left;
+}
+
+.img{
+	height: 217px;
+}
+
+.textarea{
+	height: 200px;
+}
+
+.fileImge{
+	height: 120px;
+}
+
+.indication{
+	height: 114px;
+}
+
+.phoneNum{
+	height: 72px;
+}
+
+.registerBar img{
+	width : 900px;
+	height: 2px;
+	cursor: default;
+}
+
+.registerBar2 img{
+	width : 1px;
+	height: 2px;
+	cursor: default;
+}
+
+.rightSide button{
+	width: 7.73cm;
+	height: 2.12cm;
+	background-image: url("../../images/register/main_rainbow_sub_registerButton_submitbutton.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+.bagicimg img{
+	width : 5.57cm;
+	height: 5.01cm;
+}

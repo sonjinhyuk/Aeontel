@@ -1,0 +1,164 @@
+@CHARSET "EUC-KR";
+
+section{
+	width: 1281px;
+	min-height: 900px;
+	height: auto;	
+	margin: auto;
+}
+
+.community li:FIRST-CHILD {
+    background-image: url(/Aeontel/images/community/main_rainbow_community_noticeButton.jpg);
+}
+
+.community ul li:nth-child(2){
+    background-image: url(/Aeontel/images/community/main_rainbow_community_inquiry1on1Button.jpg);
+}
+.community ul li:nth-child(3){
+    background-image: url(/Aeontel/images/community/main_rainbow_community_afterPurchaseButton.jpg);
+}
+.community ul li:nth-child(4){
+    background-image: url(/Aeontel/images/community/main_rainbow_community_useAgreementButton.jpg);
+}
+.community ul li:nth-child(5){
+    background-image: url(/Aeontel/images/community/main_rainbow_community_privacyButton.jpg);
+}
+
+
+.notice ,.countingHistory, .inquiry1on1,.terms ,.privacy, .afterPurchase{
+	width: 938px;
+	height: 73px;
+    background-image: url(/Aeontel/images/community/main_rainbow_community_notice.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+.inquiry1on1{
+    background-image: url(/Aeontel/images/community/main_rainbow_community_inquiry1on1.jpg);
+}
+.afterPurchase{
+    background-image: url(/Aeontel/images/community/main_rainbow_community_afterPurchase.jpg);
+}
+.terms{
+    background-image: url(/Aeontel/images/community/main_rainbow_community_useAgreement.jpg);
+}
+.privacy{
+    background-image: url(/Aeontel/images/community/main_rainbow_community_privacy.jpg);
+}
+.countingHistory{
+	height: 41px;
+	background-image: none;
+	float: left;
+	padding-top: 15px;
+}
+
+#countingHistory{
+    font-weight: bold;
+	color: rgb(144,196,122);
+}
+
+.boardLayout{
+	width: 938px;
+	height: auto;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.boardLayout div{
+	float: left;
+}
+
+.boardTitle, .contentLayout{
+	width: 896px;
+	height: 46px;
+	font-weight: bold;
+	border-top: 2px rgb(130,130,130) solid;
+	border-bottom: 1px rgb(227,227,227) solid;
+	margin: 0 0 0 21px;
+}
+
+.boardTitle div{
+	height: 31px;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 15px 0 0 3px;
+}
+
+.boardTitle div:FIRST-CHILD {
+	width: 97px;
+	text-align: center;
+}
+.boardTitle div:nth-child(2) {
+	width: 466px;
+	text-align: center;
+}
+.boardTitle div:nth-child(3) {
+	width: 106px;
+	text-align: center;
+}
+.boardTitle div:nth-child(4) {
+	width: 106px;
+	text-align: center;
+}
+.boardTitle div:nth-child(5) {
+	width: 106px;
+	text-align: center;
+}
+
+.content{
+	border-top: none;
+	border-bottom: 1px rgb(227,227,227) solid;
+	font-weight: 100;
+}
+.content div:FIRST-CHILD {
+	width: 97px;
+	text-align: center;
+}
+.content div:nth-child(3) {
+	width: 106px;
+	text-align: center;
+}
+.content div:nth-child(4) {
+	width: 106px;
+	text-align: center;
+}
+.content div:nth-child(5) {
+	width: 106px;
+	text-align: center;
+}
+
+.content div{
+	height: 31px;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 15px 0 0 3px;
+}
+
+.content div:nth-child(2){
+	font-weight: none;
+	font-size-adjust: inherit;
+	text-align: left;
+	text-indent: 11px;
+	cursor: pointer;
+	width: 466px;
+}
+
+.content div:nth-child(2):HOVER {
+	color: blue;
+}
+
+.contentPaging{
+	width: 896px;
+	height: 46px;
+	text-align: center;
+	padding-top: 18px;
+}
+
+.contentPaging img{
+	width: 17px;
+	height: 15px;
+	position: relative;
+	top: 3px;
+}

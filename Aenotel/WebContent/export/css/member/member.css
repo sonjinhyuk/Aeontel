@@ -1,0 +1,23 @@
+@CHARSET "EUC-KR";
+.rightSide input{
+	border-color : rgb(85,85,85);
+	border-width : 2px;
+	border-style : solid;
+	height: 20px;
+	font-size: 18px;
+}
+
+.memeberSex{
+	position: relative;
+	top: 6px;
+}
+
+.check {
+	margin: 15px 0 0 30px;
+	vertical-align: middle;
+}
+
+.require{
+	color: red;
+	font-size: 15px;
+}
