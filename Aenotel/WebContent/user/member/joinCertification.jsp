@@ -16,7 +16,6 @@
 			<img alt="" src="/Aeontel/images/main_rainbow_logo.jpg" draggable="false">
 		</div>
 		<div class = "searchArea">
-<!-- 			<div contenteditable="true" style="height: 50px;" ></div> -->
 			<input type="text" placeholder="키워드를 입력해 주세요." size="50" id = "searchText"> <input type="button" value = "검색"> 
 		</div>
 		<div class = "subMenu">
@@ -27,7 +26,7 @@
 				<img alt="" src="/Aeontel/images/upmenu/main_rainbow_sub_upMenu_siteMap.jpg"  draggable="false">
 			</div>
 			<div class="loginAfter">
-				<img alt="" src="/Aeontel/images/upmenu/main_rainbow_sub_upMenu_siteMap.jpg"  draggable="false">
+				<img alt="" src="/Aeontel/images/upmenu/main_rainbow_logout.jpg"  draggable="false">
 				<img alt="" src="/Aeontel/images/upmenu/main_rainbow_sub_upMenu_modify.jpg"  draggable="false">
 				<img alt="" src="/Aeontel/images/upmenu/main_rainbow_sub_upMenu_myinfo.jpg"  draggable="false">
 				<img alt="" src="/Aeontel/images/upmenu/main_rainbow_sub_upMenu_community.jpg"  draggable="false">

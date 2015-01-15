@@ -11,7 +11,8 @@ public class DBmanager {
 	public DBmanager() {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mysql://168.188.127.81:3306/Aeontel", "Aeontel", "Aeontel");
+//			conn = DriverManager.getConnection("jdbc:mysql://168.188.127.81:3306/Aeontel", "Aeontel", "Aeontel");
+			conn = DriverManager.getConnection("jdbc:mysql://168.188.127.89:3306/Aeontel", "Aeontel", "Aeontel");
 		} catch (Exception e) {
 			e.printStackTrace();
 		} 

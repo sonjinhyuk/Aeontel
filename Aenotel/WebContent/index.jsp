@@ -1,5 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
+<%
+	String login = null;
+	try{
+		login = (String)session.getAttribute("login");
+	} catch( Exception e ){
+		login = "N";
+	}
+	if( login == null ){
+		login = "N";
+	}
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +18,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" type="text/css" href="export/css/mainLayout.css">
 <script type="text/javascript" src = "./export/js/jquery-1.10.2.js"></script>
+<script type="text/javascript">
+	var login = "<%=login%>";
+</script>
 <script type="text/javascript" src = "./export/js/common/common.js"></script>
 </head>
 <body>
@@ -27,7 +41,7 @@
 				<img alt="" src="./images/upmenu/main_rainbow_sub_upMenu_siteMap.jpg"  draggable="false">
 			</div>
 			<div class="loginAfter">
-				<img alt="" src="./images/upmenu/main_rainbow_sub_upMenu_siteMap.jpg"  draggable="false">
+				<img alt="" src="./images/upmenu/main_rainbow_logout.jpg"  draggable="false">
 				<img alt="" src="./images/upmenu/main_rainbow_sub_upMenu_modify.jpg"  draggable="false">
 				<img alt="" src="./images/upmenu/main_rainbow_sub_upMenu_myinfo.jpg"  draggable="false">
 				<img alt="" src="./images/upmenu/main_rainbow_sub_upMenu_community.jpg"  draggable="false">

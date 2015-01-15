@@ -47,7 +47,7 @@
 				<img alt="" src="/Aeontel/images/upmenu/main_rainbow_sub_upMenu_siteMap.jpg"  draggable="false">
 			</div>
 			<div class="loginAfter">
-				<img alt="" src="/Aeontel/images/upmenu/main_rainbow_sub_upMenu_siteMap.jpg"  draggable="false">
+				<img alt="" src="/Aeontel/images/upmenu/main_rainbow_logout.jpg"  draggable="false">
 				<img alt="" src="/Aeontel/images/upmenu/main_rainbow_sub_upMenu_modify.jpg"  draggable="false">
 				<img alt="" src="/Aeontel/images/upmenu/main_rainbow_sub_upMenu_myinfo.jpg"  draggable="false">
 				<img alt="" src="/Aeontel/images/upmenu/main_rainbow_sub_upMenu_community.jpg"  draggable="false">
@@ -125,7 +125,7 @@
 			</div>
 			<div class = "rightSide">
 				<div>
-					<input type="text" id = "memeberID" placeholder="영문자 또는 숫자로 입력 하세요." size="20"><span class = "require">*</span>
+					<input type="text" id = "memberID" placeholder="영문자 또는 숫자로 입력 하세요." size="20"><span class = "require">*</span><span class = "duplicate">중복</span>
 				</div>
 				<div>
 					<input type="password" id = "passwd" placeholder="비밀번호를 입력 하세요."><span class = "require">*</span>
@@ -140,11 +140,11 @@
 					<input type="date" class ="onlyNumber" id = "memeberBrithDay"><span class = "require">*</span>
 				</div>
 				<div>
-					남 <input type="radio" name ="sex" class = "memeberSex" checked="checked">
-					여 <input type="radio" name ="sex" class = "memeberSex"><span class = "require">*</span>
+					남 <input type="radio" name ="sex" class = "memeberSex" checked="checked" value = "M">
+					여 <input type="radio" name ="sex" class = "memeberSex" value = "F"><span class = "require">*</span>
 				</div>
 				<div>
-					<input type="tel" class ="onlyNumber" id = "tel" placeholder="숫자만 사용 하십시오"><span class = "require">*</span>
+					<input type="tel" class ="onlyNumber" id = "tel1" placeholder="숫자만 사용 하십시오"><span class = "require">*</span>
 				</div>
 				<div>
 					<input type="tel" class ="onlyNumber" id = "tel2" placeholder="숫자만 사용 하십시오">
@@ -165,9 +165,9 @@
 					<input type="text" id = "address4">
 				</div>
 				<div>
-					<input type="email"> <span class = "require">*</span>
+					<input type="email" id = "email"> <span class = "require">*</span>
 				</div>
-				<button class = "myButton" disabled="disabled" id = "joinMember">회원 가입</button>
+				<button class = "myButton" id = "joinMember">회원 가입</button>
 			</div>
 		</div>
 		<div class = "mymenu">
@@ -204,6 +204,7 @@
 			<div class = "moja2c">
 			</div>
 		</div>
+		
 	</footer>
 </body>
 </html>

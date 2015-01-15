@@ -21,3 +21,26 @@
 	color: red;
 	font-size: 15px;
 }
+.rightSide, .leftSide{
+	width: 200px;
+	height: 1000px;
+	float: left;
+	margin-top: 46px;
+}
+.rightSide{
+	width: 700px;
+}
+
+.leftSide div {
+	height: 71px;
+	width: 100%;	
+}
+
+.rightSide div {
+	height: 71px;
+	width: 100%;
+}
+
+.duplicate{
+	color: blue;
+}

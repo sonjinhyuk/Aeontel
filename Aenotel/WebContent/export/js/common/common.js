@@ -1,7 +1,31 @@
-/**
+﻿/**
  * 
  */
+var login;
 $(document).ready(function(){
+	$.ajax({
+		type : "POST",
+		url : "/Aeontel/Member.do?op=loginCheck",
+		contenType : "application/son; charset=utf-8",
+		beforeSend : function(){
+			$("body").css("cursor","wait");
+		},
+		success : function( data ) {
+			if( data == "Y"){
+				$(".loginBefore").remove();
+			} else {
+				$(".loginAfter").remove();
+			}
+		},
+		error : function(request, status, error) {
+			alert("code:" + request.status + "\n"
+					+ "message:" + request.responseText
+					+ "\n" + "error:" + error);
+		},
+		complete: function(){
+			$("body").css("cursor","default");
+		}
+	});
 	$(".logo").click(function(){
 		location.href = "/Aeontel/index.jsp";
 	});
@@ -41,6 +65,44 @@ $(document).ready(function(){
 	if(msieversion() === 'IE'){
 		$(".subMenu").css("height","191px");
 	}
+	
+	$(".loginBefore img").click(function(){
+		var kindButton = this.src;
+		if(kindButton.indexOf('login.jpg') != -1 ){
+			location.href = "/Aeontel/user/member/loginForm.jsp";
+		} else if( kindButton.indexOf('join.jpg') != -1 ){
+			location.href="/Aeontel/user/member/joinCertification.jsp";
+		} else if( kindButton.indexOf('community.jpg') != -1 ){
+			location.href="/Aeontel/user/community/notice.jsp";
+		} else if( kindButton.indexOf('siteMap.jpg') != -1 ){
+			
+		} 
+	});
+	$(".loginAfter img").click(function(){
+		var kindButton = this.src;
+		if( kindButton.indexOf('logout.jpg') != -1 ){
+			$.ajax({
+				type : "POST",
+				url : "/Aeontel/Member.do?op=logout",
+				contenType : "application/son; charset=utf-8",
+				beforeSend : function(){
+					$("body").css("cursor","wait");
+				},
+				success : function( data ) {
+					alert("로그아웃됐습니다.");
+					location.reload();
+				},
+				error : function(request, status, error) {
+					alert("code:" + request.status + "\n"
+							+ "message:" + request.responseText
+							+ "\n" + "error:" + error);
+				},
+				complete: function(){
+					$("body").css("cursor","default");
+				}
+			});
+		}
+	});
 });
 
 function msieversion(){
